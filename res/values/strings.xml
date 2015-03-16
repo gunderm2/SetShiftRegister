@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shift Register Testing</string>
+    <string name="hello">Auto or Manual Shifting</string>
+    <string name="info">SIn pin 4, SClk pin 3, RClk pin 2</string>
+</resources>

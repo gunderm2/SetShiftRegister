@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hello"
+    android:textSize="30sp" /> 
+    <TextView
+    android:id="@+id/info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/info"
+    android:textSize="30sp" /> 
+    <TextView
+    android:id="@+id/binNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp" /> 
+    <ToggleButton
+		android:id="@+id/btnAuto"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="Manual Mode Shifting"
+		android:textOn="Auto Mode Shifting"
+		/>
+    <ToggleButton
+		android:id="@+id/btnSIn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="SIn LOW"
+		android:textOn="SIn HI"
+		/>
+    <ToggleButton
+		android:id="@+id/btnSClk"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="SClk LOW"
+		android:textOn="SClk HI"
+		/>
+    <ToggleButton
+		android:id="@+id/btnRClk"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="RClk LOW"
+		android:textOn="RClk HI"
+		/>
+    <Button
+		android:id="@+id/btnGo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:text="Set 8bit Number mode"
+		/>
+
+</LinearLayout>
